@@ -72,8 +72,10 @@ GOAL
        2. mencetak pohin.
        7. keluar
        
-    2. pilihan 1 berguna untuk mengupdate pohon kosong yang telah dibuat root, kiri, kanan.
-    3. pilihan 2 berguna untuk menampilkan pohon dengan urutan kiri, root, kanan.
+    2. pilihan 1 berguna untuk mengupdate pohon kosong yang telah dibuat. dimana pilihan 1 memanggil clause
+       buat_pohon. di clause buat pohon menyimpan inputan di variabel C, lalu inputan di sisipkan ke pohon dimulai dari root, kiri, kanan. 
+    3. pilihan 2 berguna untuk menampilkan pohon. dimana pilihan 2 memanggil cetak pohon.
+       di clause cetak_pohon akan menampilkan dengan urutan root, kiri, kanan.
     4. pilihan 7 berguna untuk menghentikan program
   
   */
